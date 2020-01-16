@@ -6,7 +6,7 @@
     <OutputType>Library</OutputType>
     <TargetFrameworks>netstandard1.6;netstandard2.0</TargetFrameworks>
     <VersionPrefix>$(VersionPrefix)</VersionPrefix>
-    <VersionSuffix>alpha</VersionSuffix>
+    <VersionSuffix>catalystalpha1</VersionSuffix>
     <!--NuGet-->
     <Authors>$(Authors)</Authors>
     <Copyright>$(Copyright)</Copyright>
