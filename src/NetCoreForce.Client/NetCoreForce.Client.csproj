@@ -6,7 +6,7 @@
     <OutputType>Library</OutputType>
     <TargetFrameworks>netstandard1.6;netstandard2.0</TargetFrameworks>
     <VersionPrefix>$(VersionPrefix)</VersionPrefix>
-    <VersionSuffix>catalystalpha1</VersionSuffix>
+    <VersionSuffix>catalystalpha2</VersionSuffix>
     <!--NuGet-->
     <Authors>$(Authors)</Authors>
     <Copyright>$(Copyright)</Copyright>
@@ -29,7 +29,7 @@
     <NoWarn>CS1591</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)'=='Release'">
-    <GeneratePackageOnBuild >true</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageOutputPath>$(SolutionDir)/packages</PackageOutputPath>
   </PropertyGroup>
   <ItemGroup>
